@@ -22,11 +22,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### Music
 
-*Chipper Doodle
-*Enter the Party
-*Funk Game Loop
-*Open Those Bright Eyes
-*Super Friendly
+* Chipper Doodle
+* Enter the Party
+* Funk Game Loop
+* Open Those Bright Eyes
+* Super Friendly
 
 All music created by Kevin MacLeod (incompetech.com)
 
