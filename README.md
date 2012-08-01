@@ -32,16 +32,16 @@ All music created by Kevin MacLeod (incompetech.com)
 
 ### Images
 
-1.jpg: Muffet - http://www.flickr.com/photos/calliope/4378529499/sizes/l/in/photostream/
-2.jpg: OiMax - http://www.flickr.com/photos/oimax/4568983104/sizes/l/
-3.jpg: Jamison_Judd - http://www.flickr.com/photos/jamisonjudd/2433102356/sizes/l/
-9.jpg: Jasoon - http://www.flickr.com/photos/jasoon/10837680/sizes/m/
-7.jpg: OiMax - http://www.flickr.com/photos/oimax/4568983104/sizes/l/
-10.jpg: Paul J Everett - http://www.flickr.com/photos/paul_everett82/2290063942/sizes/l/
-5.jpg: bburky - http://www.flickr.com/photos/bburky_/5899259056/sizes/l/
-18.jpg: marnanel - http://www.flickr.com/photos/marnanel/177378324/sizes/z/
-19.jpg: http://www.public-domain-image.com/nature-landscape/dew-water-drops/slides/dew-covered-spider-web.html
-20.jpg: DonkeyHotey - http://www.flickr.com/photos/donkeyhotey/5679642883/sizes/l/
-22.jpg: AMagill - http://www.flickr.com/photos/amagill/3367543296/sizes/l/
-21.png: http://commons.wikimedia.org/wiki/File:Anonymous_emblem.svg
-23.png: http://commons.wikimedia.org/wiki/File:Pictogramm_silence.svg
+1.jpg: Muffet - http://www.flickr.com/photos/calliope/4378529499/sizes/l/in/photostream/  
+2.jpg: OiMax - http://www.flickr.com/photos/oimax/4568983104/sizes/l/  
+3.jpg: Jamison_Judd - http://www.flickr.com/photos/jamisonjudd/2433102356/sizes/l/  
+9.jpg: Jasoon - http://www.flickr.com/photos/jasoon/10837680/sizes/m/  
+7.jpg: OiMax - http://www.flickr.com/photos/oimax/4568983104/sizes/l/  
+10.jpg: Paul J Everett - http://www.flickr.com/photos/paul_everett82/2290063942/sizes/l/  
+5.jpg: bburky - http://www.flickr.com/photos/bburky_/5899259056/sizes/l/  
+18.jpg: marnanel - http://www.flickr.com/photos/marnanel/177378324/sizes/z/  
+19.jpg: http://www.public-domain-image.com/nature-landscape/dew-water-drops/slides/dew-covered-spider-web.html  
+20.jpg: DonkeyHotey - http://www.flickr.com/photos/donkeyhotey/5679642883/sizes/l/  
+22.jpg: AMagill - http://www.flickr.com/photos/amagill/3367543296/sizes/l/  
+21.png: http://commons.wikimedia.org/wiki/File:Anonymous_emblem.svg  
+23.png: http://commons.wikimedia.org/wiki/File:Pictogramm_silence.svg  
