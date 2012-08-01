@@ -28,20 +28,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 * Open Those Bright Eyes
 * Super Friendly
 
-All music created by Kevin MacLeod (incompetech.com)
+All music created by Kevin MacLeod, incompetech.com (CC Attribution)
 
 ### Images
 
-1.jpg: Muffet - http://www.flickr.com/photos/calliope/4378529499/sizes/l/in/photostream/  
-2.jpg: OiMax - http://www.flickr.com/photos/oimax/4568983104/sizes/l/  
-3.jpg: Jamison_Judd - http://www.flickr.com/photos/jamisonjudd/2433102356/sizes/l/  
-9.jpg: Jasoon - http://www.flickr.com/photos/jasoon/10837680/sizes/m/  
-7.jpg: OiMax - http://www.flickr.com/photos/oimax/4568983104/sizes/l/  
-10.jpg: Paul J Everett - http://www.flickr.com/photos/paul_everett82/2290063942/sizes/l/  
-5.jpg: bburky - http://www.flickr.com/photos/bburky_/5899259056/sizes/l/  
-18.jpg: marnanel - http://www.flickr.com/photos/marnanel/177378324/sizes/z/  
-19.jpg: http://www.public-domain-image.com/nature-landscape/dew-water-drops/slides/dew-covered-spider-web.html  
-20.jpg: DonkeyHotey - http://www.flickr.com/photos/donkeyhotey/5679642883/sizes/l/  
-22.jpg: AMagill - http://www.flickr.com/photos/amagill/3367543296/sizes/l/  
-21.png: http://commons.wikimedia.org/wiki/File:Anonymous_emblem.svg  
-23.png: http://commons.wikimedia.org/wiki/File:Pictogramm_silence.svg  
+1.jpg: Muffet (CC Attribution) - http://www.flickr.com/photos/calliope/4378529499/sizes/l/in/photostream/  
+2.jpg: OiMax (CC Attribution) - http://www.flickr.com/photos/oimax/4568983104/sizes/l/  
+3.jpg: Jamison_Judd (CC Attribution) - http://www.flickr.com/photos/jamisonjudd/2433102356/sizes/l/  
+9.jpg: Jasoon (CC Attribution) - http://www.flickr.com/photos/jasoon/10837680/sizes/m/  
+7.jpg: OiMax (CC Attribution) - http://www.flickr.com/photos/oimax/4568983104/sizes/l/  
+10.jpg: Paul J Everett (CC Attribution) - http://www.flickr.com/photos/paul_everett82/2290063942/sizes/l/  
+5.jpg: Bogdan Suditu (CC Attribution) - http://www.flickr.com/photos/bogdansuditu/2607404802/sizes/o/  
+18.jpg: marnanel (CC Attribution) - http://www.flickr.com/photos/marnanel/177378324/sizes/z/  
+19.jpg: (Public Domain) http://www.public-domain-image.com/nature-landscape/dew-water-drops/slides/dew-covered-spider-web.html  
+20.jpg: DonkeyHotey (CC Attribution) - http://www.flickr.com/photos/donkeyhotey/5679642883/sizes/l/  
+22.jpg: AMagill (CC Attribution) - http://www.flickr.com/photos/amagill/3367543296/sizes/l/  
+21.png: (Public Domain) http://commons.wikimedia.org/wiki/File:Anonymous_emblem.svg  
+23.png: (Public Domain) http://commons.wikimedia.org/wiki/File:Pictogramm_silence.svg  
+
+**All image attribution can be viewed in the presentation by hovering over the image.**
