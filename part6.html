@@ -1,0 +1,136 @@
+
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>DDOS Attacks</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/sm2/soundmanager2.js"></script>
+        <script src="js/impress.js"></script>
+        <script type="text/javascript" src="js/engine.js"></script>
+    </head>
+
+    <body class="impress-not-supported">
+
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+        
+        <!-- Start Presentation -->
+
+        <div id="impress">
+            <div class="step slide" data-x="1000" data-y="-1500" data-timeout="2">
+                <div class="title">Section 6</div>
+                <div class="subtitle">Who Uses Them?</div>
+            </div>
+
+            <div class="step" data-x="2000" data-y="-1500" data-timeout="2">
+                <p>
+                    So who uses these attacks? Who is the botmaster?
+                </p>
+                <div class="giantNumber">?</div>
+            </div>
+
+            <div class="step" data-x="3000" data-y="-1500" data-timeout="4">
+                <p>
+                    Well, there isn’t just one botmaster, anyone can be a botmaster! Assuming that they have enough computers to make a botnet or the knowledge how to acquire one.
+                </p>
+                <img class="bottomImage" src="media/20.jpg" alt="earth" title="Credit: DonkeyHotey - http://www.flickr.com/photos/donkeyhotey/5679642883/sizes/l/" />
+            </div>
+
+            <div class="step" data-x="3500" data-rotate-y="90" data-y="-1500" data-z="-500" data-timeout="3">
+                <img class="bottomImage" src="media/22.jpg" alt="money" title="Credit: AMagill - http://www.flickr.com/photos/amagill/3367543296/sizes/l/" />
+                <p>
+                    Additionally, some botmasters sell their services to people who would like to run a DDOS but haven’t collected a botnet.
+                </p>
+            </div>
+
+            <div class="step" data-x="4000" data-y="-1500" data-z="-1000" data-timeout="3">
+                <p>
+                    However, one common theme among people who use DDOS attacks is that they want to restrict access to a source of information.
+                </p>
+            </div>
+
+            <div class="step" data-x="5000" data-y="-1500" data-timeout="3">
+                <p>
+                    Now given that governments typically have other means to restrict access at their disposal, they are usually not bot masters.*
+                </p>
+            </div>
+
+            <div class="step" data-x="5000" data-y="-1500" data-rotate-z="720" data-scale="0.2" data-z="-2000" data-timeout="4">
+                <p>
+                    *However, there are reasons to believe that some governments have used botnets to take down sites anonymously or sites that are not under their control. 
+                </p>
+            </div>
+
+            <div class="step" data-x="6000" data-y="-1500" data-timeout="3">
+                <img class="bottomImage" src="media/21.png" alt="Anonymous" title="Credit: http://commons.wikimedia.org/wiki/File:Anonymous_emblem.svg" />
+                <p>
+                    Infamous for its DDOSs is the hacktivist organization Anonymous, which has taken down many government and corporate websites using DDOS attacks.
+                </p>
+            </div>
+
+            <div class="step" data-x="7000" data-y="-1500" data-timeout="1">
+                <p>
+                    So who gets DDOS’d?
+                </p>
+                <div class="giantNumber">?</div>
+            </div>
+
+            <div class="step" data-x="7000" data-y="-500" data-timeout="5">
+                <p>
+                    Well, you don’t commonly see Google or Facebook going offline. The reason is because there are expensive methods to mitigate a DDOS; for large companies, DDOS’s can be managed. 
+                </p>
+            </div>
+
+            <div class="step" data-x="8000" data-y="-500" data-timeout="5">
+                <p>
+                    Some methods include trying to discern real traffic from DDOS traffic by analyzing the requesters, the frequency of the requests, and what they are requesting -if they only order a glass of water many times, they are probably a bot.
+                </p>
+            </div>
+
+            <div class="step" data-x="8000" data-y="500" data-timeout="5">
+                <p>
+                    Attacks are typically focused on small, activist sites which have a message that someone disagrees with.
+                </p>
+                <img class="bottomImage" src="media/23.png" alt="Silence" title="Credit: hhttp://commons.wikimedia.org/wiki/File:Pictogramm_silence.svg" />
+            </div>
+
+            <div class="step slide align-left" data-x="9000" data-y="500" data-next="part7.html">
+                <div class="topTitle">
+                    Additional Links <a href="#" class="nextSectionButton" onclick="nextSectionLink(this)">Next Section &raquo;</a>
+                </div>
+                <ol>
+                    <li><a href="http://cyber.law.harvard.edu/interactive/events/luncheon/2011/01/ddos">http://cyber.law.harvard.edu/interactive/events/luncheon/2011/01/ddos</a> - Again, if you find this interesting, here is a lot more information</li>
+                    <li><a href="http://cyber.law.harvard.edu/publications/2010/DDoS_Independent_Media_Human_Rights">http://cyber.law.harvard.edu/publications/2010/DDoS_Independent_Media_Human_Rights</a>- Information about who gets DDOS’d</li>
+                </ol>
+            </div>
+
+        </div>
+
+
+        
+        <!-- End Presentation -->
+        
+        <div id="optionButtons">
+            <div id="toggleMute">(M)ute</div>
+            <div id="toggleAutoplay">(A)utoplay</div>
+            <div id="mainMenu">Main M(e)nu</div>
+        </div>
+
+        <div class="hint">
+            <p>Use a spacebar or arrow keys to navigate</p>
+        </div>
+        <script>
+            if ("ontouchstart" in document.documentElement) { 
+                document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>DDOS Attacks</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/sm2/soundmanager2.js"></script>
+        <script src="js/impress.js"></script>
+        <script type="text/javascript" src="js/engine.js"></script>
+    </head>
+
+    <body class="impress-not-supported">
+
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+        
+        <!-- Start Presentation -->
+
+        <div id="impress">
+            <div class="step slide" data-x="1000" data-y="-1500" data-timeout="2">
+                <div class="title">Section 1</div>
+                <div class="subtitle">What are DDOS Attacks?</div>
+            </div>
+
+            <div class="step invisible-slide" data-x="2000" data-y="-1500" data-timeout="2">
+                <p>
+                    <span class="smallBam">Imagine</span> a restaurant.
+                </p>
+                <img class="bottomImage" src="media/1.jpg" alt="restaurant" title="Credit: Muffet - http://www.flickr.com/photos/calliope/4378529499/sizes/l/in/photostream/"/>
+            </div>
+
+            <div class="step" data-x="4000" data-y="-1500" data-timeout="5">
+                <p>
+                    It is a restaurant like any other, <span class="key">people come in and order</span> all sorts of dishes: steak, burgers, anything. <span class="key">The waiter takes their order</span> and brings them the food they requested. Each customer is <span class="key">served as the waiter becomes free.</span>
+                </p>
+                <div class="giantNumber">1</div>
+            </div>
+
+            <div class="step" data-x="5000" data-y="-1500" data-timeout="3">
+                <p>
+                    Suddenly, hundreds or thousands of customers come in and order a glass of water.
+                </p>
+                <div class="giantNumber">2</div>
+                <img class="bottomImage" src="media/2.jpg" alt="glass of water" title="Credit: OiMax - http://www.flickr.com/photos/oimax/4568983104/sizes/l/"/>
+            </div>
+
+            <div class="step" data-x="6000" data-y="-1500" data-timeout="4">
+                <p>
+                    The waiter becomes overwhelmed with the quantity of requests. As more customers enter the restaraunt the waiter is unable to attend to them because they are so overwhelmed.
+                </p>
+                <div class="giantNumber">3</div>
+            </div>
+
+            <div class="step" data-x="5000" data-y="-1000" data-z="2000" data-timeout="3">
+                <div class="title">That is a DDOS</div>
+                <div class="subtitle">making a resource unavailable by overloading it</div> 
+            </div>
+
+            <div class="step" data-x="7000" data-z="1000" data-rotate-y="45" data-y="-1500" data-timeout="5">
+                <div> <img class="bottomImage" src="media/3.jpg" alt="server" title="Credit: Jamison_Judd - http://www.flickr.com/photos/jamisonjudd/2433102356/sizes/l/"/></div>
+                <p>
+                    It is a "Denial of Service". The server is never compromised, the databases viewed, nor the data deleted. <span class="key">Throughout and after the attack, the server remains intact.</span>
+                </p>
+            </div>
+
+            <div class="step" data-x="8000" data-y="-1500" data-timeout="5">
+                <p>
+                    The reason it is called a <span class="key">D</span>istributed <span class="key">D</span>enial <span class="key">O</span>f <span class="key">S</span>ervice is because there were many attackers. Each individual that ordered a glass of water was aiding in the attack.
+                </p>
+            </div>
+
+            <div class="step" data-x="8000" data-y="-750" data-timeout="6">
+                <p>
+                    Typically, the attackers don’t actually try to load a page, all they have to do is make a simple request for a glass of water, or maybe just the homepage. And if enough machines do this, they overload the server and prevent it from responding to legitimate requests.
+                </p>
+            </div>
+            <div class="step slide align-left" data-x="9000" data-y="-750" data-next="part2.html">
+                <div class="topTitle">
+                    Additional Links <a href="#" class="nextSectionButton" onclick="nextSectionLink(this)">Next Section &raquo;</a>
+                </div>
+                <ol>
+                    <li><a href="http://cyber.law.harvard.edu/interactive/events/luncheon/2011/01/ddos">http://cyber.law.harvard.edu/interactive/events/luncheon/2011/01/ddos</a> - Good talk regarding DDOS’s, for those already super interested</li>
+                </ol>
+            </div>
+
+        </div>
+        
+        <!-- End Presentation -->
+
+        <div id="optionButtons">
+            <div id="toggleMute">(M)ute</div>
+            <div id="toggleAutoplay">(A)utoplay</div>
+            <div id="mainMenu">Main M(e)nu</div>
+        </div>
+
+        <div class="hint">
+            <p>Use a spacebar or arrow keys to navigate</p>
+        </div>
+        <script>
+            if ("ontouchstart" in document.documentElement) { 
+                document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+            }
+        </script>
+    </body>
+</html>

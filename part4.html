@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>DDOS Attacks</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/sm2/soundmanager2.js"></script>
+        <script src="js/impress.js"></script>
+        <script type="text/javascript" src="js/engine.js"></script>
+    </head>
+
+    <body class="impress-not-supported">
+
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+        
+        <!-- Start Presentation -->
+
+        <div id="impress">
+            <div class="step slide" data-x="1000" data-y="-1500" data-timeout="3">
+                <div class="title">Section 4</div>
+                <div class="subtitle">What is a DDOS in Technical Terms? - Part 1: The Botnet</div>
+            </div>
+
+            <div class="step" data-x="2000" data-y="-1500" data-timeout="4">
+                So how does it reach this? How do thousands or millions of computers plan to gang up on one server? 
+            </div>
+
+            <div class="step" data-x="2000" data-y="1000" data-timeout="3">
+                <div class="title">Well there are 2 ways:</div>
+            </div>
+
+            <div class="step" data-x="1500" data-z="-2000" data-y="500" data-timeout="5">
+                The first is that a large group of people will each download and use some piece of software to request a webpage hundreds of times per second. If enough people use the software they can successfully overload a server.
+                <div class="giantNumber">1</div>
+            </div>
+
+            <div class="step" data-x="2500" data-z="-2000" data-y="500" data-timeout="4">
+                The second way is much more complex and involves a trick, an infection, and then the attack.
+                <div class="giantNumber">2</div>
+            </div>
+
+            <div class="step" data-x="2500" data-rotate-x="90" data-y="1000" data-z="-1500" data-timeout="4">
+                First the trick. Usually, a DDOS starts with a person who tricks many people into downloading a virus.
+            </div>
+
+            <div class="step" data-x="2500" data-rotate-x="90" data-y="3000" data-rotate-z="90" data-z="-1500" data-timeout="5">
+                Second the infection. The virus allows the person who issued it to control the infected computers remotely. Sometimes the computers are issued controls through IRC, the internet, or even twitter status updates.
+            </div>
+
+            <div class="step" data-x="2500" data-rotate-x="90" data-y="5000" data-z="-1500" data-rotate-z="180" data-timeout="4">
+                The computers become ‘bots’ and the person who created the virus becomes the ‘botmaster’.
+            </div>
+
+            <div class="step" data-x="2500" data-rotate-x="90" data-y="7000" data-rotate-z="270" data-z="-1500" data-timeout="5">
+                As the botmaster acquires a large enough botnet, or network of bots, they can launch an attack on the website. The botmaster issues some command to request a webpage many, many times. 
+            </div>
+
+            <div class="step slide align-left" data-x="2500" data-rotate-x="90" data-y="7000" data-rotate-z="360" data-z="-500" data-timeout="5">
+                <div class="topTitle">
+                    Additional Links
+                </div>
+                <ol>
+                    <li><a href="http://www.us-cert.gov/cas/tips/ST06-001.html">http://www.us-cert.gov/cas/tips/ST06-001.html</a> - Information on botnets and how to avoiding becoming a part of one</li>
+                    <li><a href="http://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon">http://en.wikipedia.org/wiki/Low_Orbit_Ion_Cannon</a> - More information on that software which allows people to volunteer in DDOSs</li>
+                </ol>
+            </div>
+
+            <div class="step slide align-left" data-x="2500" data-rotate-x="90" data-y="7000" data-rotate-z="360" data-z="500" data-next="part5.html">
+                <div class="topTitle">
+                    Additional Links <a href="#" class="nextSectionButton" onclick="nextSectionLink(this)">Next Section &raquo;</a>
+                </div>
+                <ol start="3">
+                    <li><a href="http://www.networkworld.com/news/2009/072209-botnets.html">http://www.networkworld.com/news/2009/072209-botnets.html</a> - List of famous botnets</li>
+                    <li><a href="http://us.norton.com/theme.jsp?themeid=botnet">http://us.norton.com/theme.jsp?themeid=botnet</a> - Clear explanation of bots and botnets</li>
+                </ol>
+            </div>
+        </div>
+        
+        <!-- End Presentation -->
+        
+        <div id="optionButtons">
+            <div id="toggleMute">(M)ute</div>
+            <div id="toggleAutoplay">(A)utoplay</div>
+            <div id="mainMenu">Main M(e)nu</div>
+        </div>
+
+        <div class="hint">
+            <p>Use a spacebar or arrow keys to navigate</p>
+        </div>
+        <script>
+            if ("ontouchstart" in document.documentElement) { 
+                document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+            }
+        </script>
+    </body>
+</html>

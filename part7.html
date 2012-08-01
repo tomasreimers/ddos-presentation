@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>DDOS Attacks</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/sm2/soundmanager2.js"></script>
+        <script src="js/impress.js"></script>
+        <script type="text/javascript" src="js/engine.js"></script>
+    </head>
+
+    <body class="impress-not-supported">
+
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+        
+        <!-- Start Presentation -->
+
+        <div id="impress">
+            <div class="step slide" data-x="1000" data-y="-1500" data-timeout="2">
+                <div class="title">Summary</div>
+            </div>
+
+            <div class="step" data-x="2000" data-y="-1500" data-timeout="3">
+                A DDOS is an overloading of the server, either by crashing it or eating away at its bandwidth.
+            </div>
+
+            <div class="step" data-x="2500" data-z="-500" data-rotate-y="90" data-y="-1500" data-timeout="3">
+                To attack, the attacker, or botmaster, must have an army of bots, typically infected computers, at their control.
+            </div>
+
+            <div class="step" data-x="2000" data-rotate-y="180" data-z="-1000" data-y="-1500" data-timeout="3">
+                Websites get DDOS’d because someone is trying to restrict the flow of information.
+            </div>
+            <div class="step invisible-slide" data-x="2000" data-rotate-x="90" data-rotate-y="180" data-z="-500" data-y="-1000" data-end="true" data-next="index.html#step-3">
+                <div class="title">The End.</div>
+                <div class="subtitle">Thanks for Watching!</div>
+            </div>
+
+        </div>
+        
+        <!-- End Presentation -->
+        
+        <div id="optionButtons">
+            <div id="toggleMute">(M)ute</div>
+            <div id="toggleAutoplay">(A)utoplay</div>
+            <div id="mainMenu">Main M(e)nu</div>
+        </div>
+
+        <div class="hint">
+            <p>Use a spacebar or arrow keys to navigate</p>
+        </div>
+        <script>
+            if ("ontouchstart" in document.documentElement) { 
+                document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+            }
+        </script>
+    </body>
+</html>

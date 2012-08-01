@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>DDOS Attacks</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/sm2/soundmanager2.js"></script>
+        <script src="js/impress.js"></script>
+        <script type="text/javascript" src="js/engine.js"></script>
+    </head>
+
+    <body class="impress-not-supported">
+
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+        
+        <!-- Start Presentation -->
+
+        <div id="impress">
+            <div class="step slide" data-x="1000" data-y="-1500" data-timeout="2">
+                <div class="title">Section 3</div>
+                <div class="subtitle">A --Very-- Brief Primer to the Internet</div>
+            </div>
+
+            <div class="step" data-x="2000" data-y="-1500" data-timeout="4">
+                <p>
+                    But before we can dive into this world of cyber warfare, first we must examine the medium within it takes place. Indeed, we must first understand the internet.
+                </p>
+            </div>
+
+            <div class="step" data-x="3000" data-y="-1500" data-timeout="4">
+                <p>
+                    Conceptually, all the internet is a series of connections between different computers using a set of protocols to request data in between those computers. 
+                </p>
+            </div>
+
+            <div class="step invisible-slide" data-x="5000" data-y="-1500" data-timeout="4">
+                <p>
+                    So when you request http://example.com/index.html, your computer sends a request to the computer at example.com for the homepage.
+                </p>
+                <img src="media/16.png" class="bottomImage" />
+            </div>
+
+            <div class="step invisible-slide" data-x="6000" data-rotate-z="90" data-y="-500" data-timeout="3">
+                <p>
+                    The server responds with an HTML file. Which your computer interprets as an outline for the web page 
+                </p>
+                <img src="media/13.png" class="bottomImage" />
+            </div>
+
+            <div class="step invisible-slide" data-x="5000" data-y="500" data-rotate-z="180" data-timeout="3">
+               <p>
+                    additionally, the page tells the computer where it can find the other files to fill out the page, such as styles
+                </p>
+                <img src="media/14.png" class="bottomImage" />
+            </div>
+
+            <div class="step invisible-slide" data-x="4000" data-y="-500" data-rotate-z="270" data-timeout="2">
+                <p>
+                    and images
+                </p>
+                <img src="media/15.png" class="bottomImage" />
+            </div>
+
+            <div class="step invisible-slide" data-x="5000" data-z="4000" data-y="-500" data-timeout="2">
+                <div class="title">When you go to a new page, the whole process repeats.</div>
+                <img src="media/17.png" class="bottomImage" />
+            </div>
+
+            <div class="step slide align-left" data-x="7000" data-y="-500" data-z="4000" data-next="part4.html">
+                <div class="topTitle">
+                    Additional Links <a href="#" class="nextSectionButton" onclick="nextSectionLink(this)">Next Section &raquo;</a>
+                </div>
+                <ol>
+                    <li><a href="http://computer.howstuffworks.com/internet/basics/internet.htm">http://computer.howstuffworks.com/internet/basics/internet.htm</a> - If you are still confused, this explains the internet a little more thoroughly</li>
+                </ol>
+            </div>
+        </div>
+        
+        <!-- End Presentation -->
+        
+        <div id="optionButtons">
+            <div id="toggleMute">(M)ute</div>
+            <div id="toggleAutoplay">(A)utoplay</div>
+            <div id="mainMenu">Main M(e)nu</div>
+        </div>
+
+        <div class="hint">
+            <p>Use a spacebar or arrow keys to navigate</p>
+        </div>
+        <script>
+            if ("ontouchstart" in document.documentElement) { 
+                document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+            }
+        </script>
+    </body>
+</html>

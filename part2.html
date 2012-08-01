@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>DDOS Attacks</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/sm2/soundmanager2.js"></script>
+        <script src="js/impress.js"></script>
+        <script type="text/javascript" src="js/engine.js"></script>
+    </head>
+
+    <body class="impress-not-supported">
+
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+        
+        <!-- Start Presentation -->
+
+        <div id="impress">
+            <div class="step slide" data-x="1000" data-y="-1500" data-timeout="2">
+                <div class="title">Section 2</div>
+                <div class="subtitle">Symptoms and reasons for a DDOS</div>
+            </div>
+
+            <div class="step invisible-slide" data-x="2000" data-y="-1500" data-timeout="2">
+                <p>
+                    A DDOS can be motivated by a variety of reasons, but all of them have one goal:
+                </p>
+            </div>
+
+            <div class="step invisible-slide" data-x="3000" data-y="-1500" data-timeout="2">
+                <p>
+                    <span class="bam">to restrict</span> the flow of information.
+                </p>
+            </div>
+
+            <div class="step invisible-slide" data-x="3500" data-y="-1500"  data-z="-500" data-rotate-y="90" data-timeout="2">
+                <div class="topTitle">Be it to damage a company</div>
+                <img class="bottomImage" src="media/9.jpg" alt="closed sign" title="Credit: Jasoon - http://www.flickr.com/photos/jasoon/10837680/sizes/m/"/>
+            </div>
+
+            <div class="step invisible-slide" data-x="3000" data-y="-1500" data-z="-1000" data-rotate-y="180" data-timeout="2">
+                <div class="topTitle">harm the reputation of an organization</div>
+                <img class="bottomImage" src="media/7.jpg" alt="smoke stack" title="Credit: OiMax - http://www.flickr.com/photos/oimax/4568983104/sizes/l/"/>
+            </div>
+
+            <div class="step invisible-slide" data-x="2500" data-y="-1500" data-z="-500" data-rotate-y="270" data-timeout="2">
+                <div class="topTitle">or prevent access to some data</div>
+                <img class="bottomImage" src="media/10.jpg" alt="censored" title="Credit: Paul J Everett - http://www.flickr.com/photos/paul_everett82/2290063942/sizes/l/"/>
+            </div>
+
+            <div class="step slide" data-x="2500" data-y="-500" data-z="-500" data-rotate-y="270" data-timeout="2">
+                <div class="title">Symptoms</div>
+            </div>
+
+             <div class="step invisible-slide" data-x="3000" data-y="-500" data-z="-1000" data-rotate-y="180" data-timeout="2">
+                <div class="topTitle">unavailability of a website</div>
+                <img class="bottomImage" src="media/11.png" alt="unavailiable" />
+            </div>
+
+            <div class="step invisible-slide" data-x="3500" data-y="-500"  data-z="-500" data-rotate-y="90" data-timeout="2">
+                <div class="topTitle">slow performance of a site</div>
+                <img class="bottomImage" src="media/12.png" alt="no response"/>
+            </div>
+
+            <div class="step invisible-slide" data-x="3000" data-y="-500" data-timeout="2">
+                <div class="topTitle">increase in spam mail</div>
+                <img class="bottomImage" src="media/5.jpg" alt="envelope" title="Credit: bburky - http://www.flickr.com/photos/bburky_/5899259056/sizes/l/"/>
+            </div>
+
+            <div class="step slide align-left" data-x="3000" data-y="0" data-z="-500" data-rotate-x="-90" data-next="part3.html">
+                <div class="topTitle">
+                    Additional Links <a href="#" class="nextSectionButton" onclick="nextSectionLink(this)">Next Section &raquo;</a>
+                </div>
+                <ol>
+                    <li><a href="http://www.us-cert.gov/cas/tips/ST04-015.html">http://www.us-cert.gov/cas/tips/ST04-015.html</a> - Background information on DDOS attacks</li>
+                    <li><a href="http://www.cert.org/homeusers/ddos.html">http://www.cert.org/homeusers/ddos.html</a> - Again more information on DDOS attacks</li>
+                </ol>
+            </div>
+
+        </div>
+        
+        <!-- End Presentation -->
+        
+        <div id="optionButtons">
+            <div id="toggleMute">(M)ute</div>
+            <div id="toggleAutoplay">(A)utoplay</div>
+            <div id="mainMenu">Main M(e)nu</div>
+        </div>
+
+        <div class="hint">
+            <p>Use a spacebar or arrow keys to navigate</p>
+        </div>
+        <script>
+            if ("ontouchstart" in document.documentElement) { 
+                document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+            }
+        </script>
+    </body>
+</html>

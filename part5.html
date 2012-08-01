@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>DDOS Attacks</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/sm2/soundmanager2.js"></script>
+        <script src="js/impress.js"></script>
+        <script type="text/javascript" src="js/engine.js"></script>
+    </head>
+
+    <body class="impress-not-supported">
+
+
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+        
+        <!-- Start Presentation -->
+
+        <div id="impress">
+            <div class="step slide" data-x="1000" data-y="-1500" data-timeout="2">
+                <div class="title">Section 5</div>
+                <div class="subtitle">What is a DDOS in Technical Terms? - Part 2: The Crash</div>
+            </div>
+
+            <div class="step" data-x="2000" data-y="-1500" data-timeout="2">
+                <img class="bottomImage" src="media/18.jpg" alt="flood" title="Credit: marnanel - http://www.flickr.com/photos/marnanel/177378324/sizes/z/"/>
+                <p>
+                    As the server becomes flooded with requests it can’t respond to actual requests.
+                </p>
+            </div>
+
+            <div class="step" data-x="2000" data-y="-500" data-timeout="2">
+                <p>
+                    However, why the server can’t respond varies.
+                </p>
+            </div>
+
+            <div class="step invisible-slide" data-x="2000" data-y="1000" data-timeout="2">
+                <div class="topTitle">There are many types of attacks, including:</div>
+            </div>
+
+            <div class="step" data-x="1500" data-z="-2000" data-y="1000" data-timeout="4">
+                <div class="smallBam">Application attacks</div>
+                <p>
+                    focus on overloading the server so that it can’t respond because it is too overloaded.
+                </p>
+            </div>
+
+            <div class="step" data-x="2500" data-z="-2000" data-y="1000" data-timeout="4">
+                <div class="smallBam">Network attacks</div> 
+                <p>
+                    focus on overflowing the medium with which the server connects to the internet (i.e. the server’s bandwidth), thus preventing any other connections to the server.
+                </p>
+            </div>
+
+            <div class="step" data-x="6000" data-z="-2000" data-y="1000" data-timeout="2">
+                <p>
+                    So how can you avoid becoming part of the problem?
+                </p>
+            </div>
+
+            <div class="step" data-x="6000" data-z="-2000" data-y="2000" data-timeout="3">
+                <p>
+                    Try to keep your computer clean from spyware. Download an antivirus and prevent yourself from becoming part of a botnet. 
+                </p>
+                <img class="bottomImage" src="media/19.jpg" alt="net" title="Credit: http://www.public-domain-image.com/nature-landscape/dew-water-drops/slides/dew-covered-spider-web.html"/>
+            </div>
+
+            <div class="step slide align-left" data-x="6000" data-z="-2000" data-y="3000" data-next="part6.html">
+                <div class="topTitle">
+                    Additional Links <a href="#" class="nextSectionButton" onclick="nextSectionLink(this)">Next Section &raquo;</a>
+                </div>
+                <ol>
+                    <li><a href="http://en.wikipedia.org/wiki/Denial-of-service_attack#Methods_of_attack">http://en.wikipedia.org/wiki/Denial-of-service_attack#Methods_of_attack</a> - How a DDOS can prevent a server from being able to respond to legitimate requests</li>
+                </ol>
+            </div>
+
+        </div>
+
+
+        
+        <!-- End Presentation -->
+        
+        <div id="optionButtons">
+            <div id="toggleMute">(M)ute</div>
+            <div id="toggleAutoplay">(A)utoplay</div>
+            <div id="mainMenu">Main M(e)nu</div>
+        </div>
+
+        <div class="hint">
+            <p>Use a spacebar or arrow keys to navigate</p>
+        </div>
+        <script>
+            if ("ontouchstart" in document.documentElement) { 
+                document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+            }
+        </script>
+    </body>
+</html>
