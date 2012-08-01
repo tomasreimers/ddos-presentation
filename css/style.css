@@ -550,6 +550,7 @@ a.sceneSelection {
 }
 .additionalLinksList {
     font-size:16px;
+    text-align:left;
 }
 .step:not(.slide) img {
     padding:20px;
@@ -592,4 +593,7 @@ a.sceneSelection {
 }
 .nextSectionButton {
     color:#666;
+}
+a {
+    word-wrap: break-word;
 }
